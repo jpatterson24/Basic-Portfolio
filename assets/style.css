@@ -90,6 +90,9 @@ nav a:first-child {
 	border-left: 0 none;
 }
 
+nav:hover {
+    color: #FF00FF;
+
 #main-container {
 	padding-top: 130px;
 }
@@ -223,3 +226,169 @@ input[type=submit] {
 	cursor: pointer;
 }
 	
+@media screen and (max-width: 640px) {
+
+   #logo {
+    width: 640px;
+    height: 90px;
+    background: #4aaaa5 ;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    }
+
+   nav {
+    float: right;
+    margin-top: 25px;
+    width: 640px;
+    text-align: center;
+}
+
+   nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef ;
+    padding-left: 20px;
+    line-height: 18px;
+    padding-right: 54px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    /* margin-right: 180px; */
+    margin: 0 40px 0;
+    width: 88%;
+    max-width: 640px;
+    float: left;
+    border: 1px solid #ddd
+}
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 640px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-right: 27px;
+}
+
+.work {
+    width: 493px;
+    height: 232px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 189px;
+    }
+
+#logo {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5 ;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 25px;
+    }
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0;
+    width: 100%;
+    max-width: 723px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    }
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 720px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-right: 22px;
+    /* margin-left: 47px; */
+    }
+
+
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 281px;
+}
+
+#logo {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5 ;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 65px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 502px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-left: 65px;
+    height: 702px;
+}
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-right: 95px;
+    }
+
